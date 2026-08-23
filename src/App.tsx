@@ -2,6 +2,7 @@ import { useEffect, useState, type PointerEvent as ReactPointerEvent } from 'rea
 import Coaches from '@/components/Coaches';
 import ContactMap from '@/components/ContactMap';
 import FAQ from '@/components/FAQ';
+import Footer from '@/components/Footer';
 import StartJourney from '@/components/StartJourney';
 import Testimonials from '@/components/Testimonials';
 import TrainingEnvironment from '@/components/TrainingEnvironment';
@@ -365,6 +366,7 @@ function App() {
       <Testimonials />
       <FAQ />
       <ContactMap />
+      <Footer />
     </main>
   );
 }
