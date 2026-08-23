@@ -1,5 +1,6 @@
 import { useEffect, useState, type PointerEvent as ReactPointerEvent } from 'react';
 import Coaches from '@/components/Coaches';
+import ContactMap from '@/components/ContactMap';
 import FAQ from '@/components/FAQ';
 import StartJourney from '@/components/StartJourney';
 import Testimonials from '@/components/Testimonials';
@@ -363,6 +364,7 @@ function App() {
       <Coaches />
       <Testimonials />
       <FAQ />
+      <ContactMap />
     </main>
   );
 }
