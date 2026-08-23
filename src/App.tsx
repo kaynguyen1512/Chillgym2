@@ -1,5 +1,6 @@
 import { useEffect, useState, type PointerEvent as ReactPointerEvent } from 'react';
 import Coaches from '@/components/Coaches';
+import FAQ from '@/components/FAQ';
 import StartJourney from '@/components/StartJourney';
 import Testimonials from '@/components/Testimonials';
 import TrainingEnvironment from '@/components/TrainingEnvironment';
@@ -16,7 +17,7 @@ import {
   X,
 } from 'lucide-react';
 
-const navItems = ['GIỚI THIỆU', 'THAY ĐỔI', 'DỊCH VỤ', 'HUẤN LUYỆN VIÊN', 'ĐÁNH GIÁ', 'ĐỊA CHỈ'];
+const navItems = ['GIỚI THIỆU', 'THAY ĐỔI', 'DỊCH VỤ', 'HUẤN LUYỆN VIÊN', 'ĐÁNH GIÁ', 'CÂU HỎI', 'ĐỊA CHỈ'];
 
 const features = [
   { label: ['KHÔNG GIAN', 'THOÁNG MÁT'], icon: Leaf },
@@ -361,6 +362,7 @@ function App() {
       <StartJourney />
       <Coaches />
       <Testimonials />
+      <FAQ />
     </main>
   );
 }
