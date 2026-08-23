@@ -24,7 +24,13 @@ function TrainingEnvironment() {
           decoding="async"
         />
         <div className="environment-hero-shade" />
-        <h2 id="environment-heading">MÔI TRƯỜNG TẬP LUYỆN RIÊNG TƯ VÀ LUÔN ĐƯỢC HỖ TRỢ</h2>
+        <h2 id="environment-heading">
+          MÔI TRƯỜNG TẬP LUYỆN
+          <br />
+          <strong>RIÊNG TƯ VÀ</strong>
+          <br />
+          <em>LUÔN ĐƯỢC HỖ TRỢ.</em>
+        </h2>
       </div>
 
       <div className="environment-gallery" aria-label="Không gian tập luyện và huấn luyện viên Chill Gym">

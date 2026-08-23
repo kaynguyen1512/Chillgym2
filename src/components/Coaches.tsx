@@ -76,7 +76,7 @@ function Coaches() {
     <section className="coaches-section" id="dong-hanh-cung-ban" aria-labelledby="coaches-heading">
       <div className="coaches-intro reveal" ref={introRef}>
         <p className="section-kicker">ĐỘI NGŨ HUẤN LUYỆN VIÊN</p>
-        <h2 id="coaches-heading">ĐỒNG HÀNH CÙNG BẠN</h2>
+        <h2 id="coaches-heading">ĐỒNG HÀNH CÙNG <strong>BẠN</strong></h2>
         <p className="coaches-tagline">Mỗi hành trình đều cần một người đồng hành đúng.</p>
       </div>
 

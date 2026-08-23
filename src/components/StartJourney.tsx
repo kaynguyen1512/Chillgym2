@@ -15,7 +15,7 @@ function StartJourney() {
     <section className="journey-section" id="bat-dau-hanh-trinh" aria-labelledby="journey-heading">
       <div className="journey-intro">
         <p className="section-kicker">CHILL GYM</p>
-        <h2 id="journey-heading">BẮT ĐẦU HÀNH TRÌNH</h2>
+        <h2 id="journey-heading"><em>BẮT ĐẦU</em> HÀNH TRÌNH</h2>
       </div>
 
       <figure className="journey-opening-image">
@@ -94,16 +94,6 @@ function StartJourney() {
         </article>
       </div>
 
-      <div className="journey-closing">
-        <h3>
-          THAY ĐỔI CƠ THỂ.
-          <br />
-          <em>THAY ĐỔI CẢ CUỘC ĐỜI.</em>
-          <br />
-          <em>BẮT ĐẦU NGAY.</em>
-        </h3>
-        <a className="button button-primary" href="#tu-van">TƯ VẤN MIỄN PHÍ</a>
-      </div>
     </section>
   );
 }

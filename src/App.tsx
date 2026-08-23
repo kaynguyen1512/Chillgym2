@@ -197,7 +197,13 @@ function App() {
           </button>
 
           <div className="hero-copy">
-            <p className="eyebrow">CHILL GYM</p>
+            <div className="google-review-badge" aria-label="Google 4.8 sao, 1278 đánh giá">
+              <span>GOOGLE</span>
+              <span className="google-review-stars" aria-hidden="true">★★★★★</span>
+              <strong>4.8</strong>
+              <span>·</span>
+              <span>1278 đánh giá</span>
+            </div>
             <h1>
               TẬP LUYỆN
               <br />

@@ -43,9 +43,9 @@ function ContactMap() {
       <div className="contact-intro reveal" ref={introRef}>
         <p className="section-kicker">ĐỊA ĐIỂM</p>
         <h2 id="contact-heading">
-          GHÉ CHILL GYM.
+          GHÉ <em>CHILL GYM.</em>
           <br />
-          BẮT ĐẦU HÀNH TRÌNH CỦA BẠN.
+          <em>BẮT ĐẦU</em> HÀNH TRÌNH CỦA BẠN.
         </h2>
         <p className="contact-tagline">Chúng tôi luôn sẵn sàng chào đón bạn đến tập thử, tư vấn và đồng hành cùng mục tiêu của bạn.</p>
       </div>

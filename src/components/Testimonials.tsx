@@ -152,7 +152,7 @@ function Testimonials() {
     <section className="testimonials-section" id="danh-gia" aria-labelledby="testimonials-heading">
       <div className="testimonials-intro reveal" ref={introRef}>
         <p className="section-kicker">ĐÁNH GIÁ THỰC TỪ HỌC VIÊN</p>
-        <h2 id="testimonials-heading">KẾT QUẢ THỰC.<br />CẢM NHẬN THỰC.</h2>
+        <h2 id="testimonials-heading">KẾT QUẢ <em>THỰC.</em><br />CẢM NHẬN <em>THỰC.</em></h2>
         <p className="testimonials-tagline">Những chia sẻ từ học viên tại Chill Gym.</p>
       </div>
 
